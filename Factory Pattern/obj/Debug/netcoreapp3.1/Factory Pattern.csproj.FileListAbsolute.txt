@@ -1,0 +1,13 @@
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\obj\Debug\netcoreapp3.1\Factory Pattern.csprojAssemblyReference.cache
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\obj\Debug\netcoreapp3.1\Factory Pattern.AssemblyInfoInputs.cache
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\obj\Debug\netcoreapp3.1\Factory Pattern.AssemblyInfo.cs
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\obj\Debug\netcoreapp3.1\Factory Pattern.csproj.CoreCompileInputs.cache
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\bin\Debug\netcoreapp3.1\Factory Pattern.exe
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\bin\Debug\netcoreapp3.1\Factory Pattern.deps.json
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\bin\Debug\netcoreapp3.1\Factory Pattern.runtimeconfig.json
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\bin\Debug\netcoreapp3.1\Factory Pattern.runtimeconfig.dev.json
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\bin\Debug\netcoreapp3.1\Factory Pattern.dll
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\bin\Debug\netcoreapp3.1\Factory Pattern.pdb
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\obj\Debug\netcoreapp3.1\Factory Pattern.dll
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\obj\Debug\netcoreapp3.1\Factory Pattern.pdb
+C:\Users\Robert Colville\Desktop\Repos\Factory Pattern\Factory Pattern\obj\Debug\netcoreapp3.1\Factory Pattern.genruntimeconfig.cache

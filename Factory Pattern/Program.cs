@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Factory_Pattern
 {
@@ -6,17 +7,51 @@ namespace Factory_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What type of vehicle do you want to make? Car or Motorcycle?");
-            string userInput = Console.ReadLine();
 
-            VehicleFactory factory = new VehicleFactory();
-            IVehicle myVehicle = factory.CreateVehicle(userInput);
+            bool finished = true;
+            string anotherVehicle;
+            List<IVehicle> vehicles = new List<IVehicle>();
 
-            myVehicle.Drive();
+            while (finished == true)
+            {
+                Console.WriteLine("What type of vehicle do you want to make? Car or Motorcycle?");
+                Console.WriteLine();
+                Console.WriteLine($"Type 1 for: Car");
+                Console.WriteLine($"Type 2 for: Motorcyle");
+                Console.WriteLine();
 
-            Console.WriteLine("Lets make another vehicle");
-            userInput = Console.ReadLine();
+                var userInput = int.Parse(Console.ReadLine());
+
+                if (userInput == 1)
+                {
+                    vehicles.Add(VehicleFactory.CreateVehicle(1));
+                }
+                else
+                    vehicles.Add(VehicleFactory.CreateVehicle(2));
+
+                for (int i = 0; i < vehicles.Count; i++)
+                {
+                    vehicles[i].Drive();
+                }
+
+                Console.WriteLine("Would you like to create another vehicle? Please answer 'yes' or 'no'");
+                anotherVehicle = Console.ReadLine().ToLower();
+
+                if (anotherVehicle == "yes")
+                {
+
+                }
+                else
+                {
+                    Console.WriteLine("See you next time then!");
+                    finished = false;
+                }
+                    
+            }
         }
             
+    
     }
+
 }
+

@@ -9,9 +9,14 @@ namespace Factory_Pattern
         public string Color { get; set; }
         public bool IsDriveable { get; set; }
 
+        public Car()
+        {
+
+        }
+
         public void Drive()
         {
-            Console.WriteLine($"Sorry can't text, I'm driving {Color} car");
+            Console.WriteLine($"I'm driving my {Color} car");
 
         }
     }

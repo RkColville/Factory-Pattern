@@ -2,6 +2,6 @@
 {
     interface IVehicle
     {
-        void Drive();
+        public void Drive();
     }
 }
